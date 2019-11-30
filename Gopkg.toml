@@ -1,0 +1,32 @@
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/onsi/ginkgo"
+  version = "1.4.0"
+
+[[constraint]]
+  name = "github.com/onsi/gomega"
+  version = "1.3.0"
+
+[[constraint]]
+  name = "github.com/DATA-DOG/godog"
+  version = "0.7.6"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/getsentry/raven-go"
+
+[[constraint]]
+  branch = "master"
+  name = "gitlab.com/sellernomics/golog"
+
+[[constraint]]
+  name = "github.com/newrelic/go-agent"
+  version = "1.11.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/heroku/x"
