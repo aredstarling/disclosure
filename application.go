@@ -4,10 +4,10 @@ import (
 	"os"
 	"time"
 
-	"gitlab.com/sellernomics/golog"
 	raven "github.com/getsentry/raven-go"
 	_ "github.com/heroku/x/hmetrics/onload" // Allows us to remove in one place if we don't need it.
 	newrelic "github.com/newrelic/go-agent"
+	"gitlab.com/sellernomics/golog"
 )
 
 // Application defines a way to seperate what we want dislosed.

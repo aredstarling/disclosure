@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sellernomics/golog"
+	"gitlab.com/getlytica/golog"
 )
 
 // Monitor the application

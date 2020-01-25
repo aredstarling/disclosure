@@ -1,8 +1,8 @@
 package disclosure
 
 import (
-	"github.com/sellernomics/golog"
 	newrelic "github.com/newrelic/go-agent"
+	"gitlab.com/getlytica/golog"
 )
 
 type shim struct {
