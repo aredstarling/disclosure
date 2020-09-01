@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.com/getlytica/golog"
+	"gitlab.com/lyticaa-public/golog"
 )
 
 // Monitor the application

@@ -5,7 +5,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"gitlab.com/getlytica/golog"
+	"gitlab.com/lyticaa-public/golog"
 )
 
 // SignalTermination handles SIGTERM

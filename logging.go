@@ -2,7 +2,7 @@ package disclosure
 
 import (
 	newrelic "github.com/newrelic/go-agent"
-	"gitlab.com/getlytica/golog"
+	"gitlab.com/lyticaa-public/golog"
 )
 
 type shim struct {
